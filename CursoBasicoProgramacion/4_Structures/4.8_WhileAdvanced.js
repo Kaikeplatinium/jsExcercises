@@ -11,7 +11,7 @@ var listaEmpleados = [{
 },{
     Nombre: "Tito",
     Edad: 20,
-    Activo: false,
+    Activo: true,
     Carrera: "Ing Sistemas"
 },{
     Nombre: "Samuel",
