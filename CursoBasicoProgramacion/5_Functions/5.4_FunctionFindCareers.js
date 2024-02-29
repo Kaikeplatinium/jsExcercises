@@ -26,7 +26,6 @@ function Buscador(a) {
 }
 
 // Usar Funcion
-
 var listaEmpleados = [
   {
     Nombre: "Juan",
