@@ -16,6 +16,7 @@ var listaEmpleados = [{
 }]
 
 var contadorIngSistemas = 0
+
 listaEmpleados.forEach(element => {
     console.log(element.Nombre);
     if (element.Carrera == "Ing Sistemas") {
