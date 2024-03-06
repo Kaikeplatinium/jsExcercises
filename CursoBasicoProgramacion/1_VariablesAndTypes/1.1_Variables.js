@@ -6,8 +6,12 @@ console.log("Pi es: " + pi);
 var base = 0;
 console.log("base es: " + base);
 
+//variable
+let base1 = 0;
+console.log("base es: " + base);
+
 // Cambio de valor
-base = 30;
-console.log("Ahora Base es: " + base);
-pi = 0;
-console.log("Ahora Pi es: " + pi);
+//base = 30;
+//console.log("Ahora Base es: " + base);
+//pi = 0;
+//console.log("Ahora Pi es: " + pi);

@@ -11,7 +11,7 @@ var esUnaCadenaDeTexto = "Hola mundo"
 esUnaCadenaDeTexto = '$mrismgdkeow1234i32'
 
 // Array
-var esUnaLista = [0, 1, 2, 3, 4]
+var esUnaLista = [0, 1, 2, 3, 4, 5]
 esUnaLista = ["a", "b", "c"]
 console.log(esUnaLista[2]);
 
