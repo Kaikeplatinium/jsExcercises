@@ -13,14 +13,15 @@ esUnaCadenaDeTexto = '$mrismgdkeow1234i32'
 // Array
 var esUnaLista = [0, 1, 2, 3, 4, 5]
 esUnaLista = ["a", "b", "c"]
-console.log(esUnaLista[2]);
+//console.log(esUnaLista[2]);
 
 // Objects
 var esUnObjeto = {
     Nombre: "Juan",
     Edad: 23,
     Activo: false,
-    Carrera: "Ing Sistemas"
+    Carrera: "Ing Sistemas",
+    telefono: 8441294193
 }
-esUnObjeto.Activo = true
-console.log(esUnObjeto.Activo);
+
+console.log(esUnObjeto.telefono);
