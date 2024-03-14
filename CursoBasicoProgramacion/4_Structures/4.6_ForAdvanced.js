@@ -1,4 +1,4 @@
-var listaEmpleados = [{
+let listaEmpleados = [{
     Nombre: "Juan",
     Edad: 23,
     Activo: false,
@@ -15,7 +15,7 @@ var listaEmpleados = [{
     Carrera: "Ing Sistemas"
 }]
 
-var contadorIngSistemas = 0;
+let contadorIngSistemas = 0;
 for (let i = 0; i < listaEmpleados.length; i++) {
     console.log(listaEmpleados[i].Nombre);
     console.log(listaEmpleados[i].Edad);

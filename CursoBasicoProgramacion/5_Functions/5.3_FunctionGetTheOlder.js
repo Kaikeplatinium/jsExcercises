@@ -9,9 +9,7 @@ function peopleOldest(a) {
   }
 
 }
-
 // Usar Funcion
-
 var people = [
   {
     Nombre: "Juan",

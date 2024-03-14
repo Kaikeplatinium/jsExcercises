@@ -1,4 +1,4 @@
-var listaEmpleados = [{
+let listaEmpleados = [{
     Nombre: "Juan",
     Edad: 23,
     Activo: false,
@@ -15,12 +15,18 @@ var listaEmpleados = [{
     Carrera: "Ing Sistemas"
 }]
 
-var contadorIngSistemas = 0
+let contadorIngSistemas = 0
 
-listaEmpleados.forEach(element => {
-    console.log(element.Nombre);
-    if (element.Carrera == "Ing Sistemas") {
+listaEmpleados.forEach(g => {
+    console.log(g.Nombre,g.Carrera);
+   
+    if (g.Carrera == "Ing Sistemas") {
         contadorIngSistemas++
     }
 });
+
+array.forEach(element => {
+    
+});
+
 console.log(contadorIngSistemas);

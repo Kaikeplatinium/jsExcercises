@@ -1,13 +1,9 @@
-// Make a function that counts how many there are careers and that they are active
-
 // Crear funcion
 function Buscador(a) {
-
   var mecatronica = [];
   var sistemas = [];
   var diseño = [];
   var electrico = [];
-  
   for (let i = 0; i < a.length; i++) {
     if (a[i].Carrera == "Ing Sistemas" && a[i].Activo == true) {
       sistemas.push(a[i].Nombre);
@@ -24,9 +20,7 @@ function Buscador(a) {
   }
   return ["Sistemas "+sistemas,"Mecatronica "+mecatronica,"Diseño "+diseño,"Electrica "+electrico];
 }
-
 // Usar Funcion
-
 var listaEmpleados = [
   {
     Nombre: "Juan",
@@ -89,5 +83,4 @@ var listaEmpleados = [
     Carrera: "Ing Sistemas",
   },
 ];
-
 console.log(Buscador(listaEmpleados));

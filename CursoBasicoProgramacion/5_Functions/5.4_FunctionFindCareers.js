@@ -1,5 +1,4 @@
 // Make a function that counts how many there are careers and that they are active
-
 // Crear funcion
 function Buscador(a) {
 
@@ -24,7 +23,6 @@ function Buscador(a) {
   }
   return ["Sistemas "+sistemas,"Mecatronica "+mecatronica,"Diseño "+diseño,"Electrica "+electrico];
 }
-
 // Usar Funcion
 var listaEmpleados = [
   {
@@ -88,5 +86,4 @@ var listaEmpleados = [
     Carrera: "Ing Sistemas",
   },
 ];
-
 console.log(Buscador(listaEmpleados));
