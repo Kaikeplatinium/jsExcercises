@@ -1,0 +1,9 @@
+lookup O(logN)
+Insert O(logN)
+Delete O(logN)
+
+        101
+      /       /
+    33        105
+  /     /    /       /
+9       37  104     144
